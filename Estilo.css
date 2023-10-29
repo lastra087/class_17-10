@@ -1,0 +1,13 @@
+:root{
+    --colorclaro:cadetblue;
+    --colorboton:blue ;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--colorclaro)
+}
+#Enviar{
+background-color:var(--colorboton);
+}

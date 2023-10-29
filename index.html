@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilo.css">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <form action="" class="formulario">
+        <label for="">Instituto villa del rosario</label>
+        <label for="nombreusuario">Nombre:
+            <input type="text" name="nombreusuario" id="Nombreusuario" required>
+        </label>
+        <label for="apellido">Apellido
+            <input type="text" name="apellido" id="Apellidousuario" required>
+        </label>
+            <label for="email">e-mail:
+               <input type="email" name="email" id="Email" placeholder="ejemplo@gmail.com" required>
+        </label>
+        <label for="turnocursada">Seleccione un turno:
+            <label for="tmañana">Mañana
+                <input type="radio" name="turno" value="mañana" id="tmañana">
+            </label>
+            <label for="ttarde">Tarde
+                <input type="radio" name="turno" value="tarde" id="ttarde">
+            </label>
+            <label for="tnoche">Noche
+                <input type="radio" name="turno" value="noche" id="tnoche">
+            </label>
+        </label>
+        <label for="Tecnicatura">Selccione la Tecnicaturas:
+            <label for="Ts">Software
+                <input type="checkbox" name="Tecnicatura" id="Ts" value="Ts">
+            </label>
+            <label for="Tm">Molienda
+                <input type="checkbox" name="Tecnicatura" id="Tm" value="Tm">
+            </label>
+            <label for="Tr">Recursos Humanos
+                <input type="checkbox" name="Tecnicatura" id="Tr" value="Tr">
+            </label>
+        </label>
+        <label for="">Seleccione la nacionalidad:
+            <input type="text" name="" id="">
+        </label>
+        <label for="fechanac">Infgrese fecha de Nacimiento:
+            <input type="date" name="fechanac" id="fechanac">
+        </label>
+        <label for="comentario">Ingrese un comentario:
+            <textarea name="comentariousuario" id="comentario" 
+           maxlength="10" minlength="2" placeholder="ingrese un comentario"></textarea>
+        </label>
+        <input type="submit" name="" id="Enviar">
+    </form>
+</body>
+</html>
